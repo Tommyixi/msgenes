@@ -101,6 +101,10 @@
   color: #fff;
 }
 
+.color-initial{
+	color: initial;
+}
+
 @media only screen and (min-width: 40.063em) {
   .footer .columns:nth-child(n+2) {
     border-left: 1px solid #b3b3b3;
