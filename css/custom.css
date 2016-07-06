@@ -9,6 +9,9 @@
 	font-weight: bolder;
 	/*color:rgb(200, 236, 254) !important;*/
 }
+.off-canvas-wrapper{
+	background-color: #2185d0 !important;
+}
 .is-dropdown-submenu{
 	border: 1px solid black;
 	background-color: background-color: #2185d0 !important;
@@ -21,6 +24,9 @@
 }
 .blue-background{
 	background-color: #2185d0 !important;
+}
+.white-text, .white-text:hover{
+	color:white;
 }
 .no-border{
 	border: none;
