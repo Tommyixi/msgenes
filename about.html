@@ -13,8 +13,12 @@
   </head>
   <body>
 
+
     <div class="off-canvas-wrapper">
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <video autoplay loop id="bgvid">
+            <source src="video/about_us.mp4" type="video/mp4">
+        </video>
 
         <!-- off-canvas title bar for 'small' screen -->
         <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
@@ -76,11 +80,6 @@
             		<p>The Multiple Sclerosis Genetics Research Laboratory at the Department of Neurology in the UCSF School of Medicine is combining genetics and functional genomics together with immunologic, biochemical, neuroimaging and clinical experimental approaches to identify and characterize pathogenic processes of relevance to multiple sclerosis (MS) and other inflammatory conditions of the central nervous system.</p>
             	</div>
             </div>    
-            <div class='row'>
-              <div class="medium-7 small-12 columns small-centered" id='video'>
-                <video loop onclick="playPause()" id="about_us_video" class='radius' width="100%" height="100%" controls><source src="video/about_us.mp4" type=""></video>
-              </div>
-            </div>
 
             <br>
 
@@ -88,6 +87,8 @@
             	<div class='small-12 columns justify-text'>
             		<p>Neurological impairment in MS is the outcome of a rather extensive and coordinated series of events that include peripheral lymphocyte activation, disruption of the blood-brain barrier, and cellular infiltration into the brain parenchyma leading to tissue injury, neurodegeneration, and neurological deficits. The nature and intensity of this process as well as the physiological ability to restore homeostasis are conditioned by the unique amino acid sequences that define allelic variants on each of the participating molecules. Genes, either in their germline configuration or as part of complex functional networks, play a primary role in determining who is at risk for developing such disorders, how the disease progresses, and how affected individuals responds to therapy.</p>
             	</div>
+
+
 
             	<div class='small-12 columns justify-text'>
             		<p>Our goal is to identify the major genetic factors that predispose to autoimmunity in the central nervous system and modulate disease presentation and progression. The availability of highly sensitive and high-capacity methods for analysis of gene variation and expression combined with the implementation of algorithms that predict behaviors in complex biological circuits provides an outstanding opportunity to facilitate progress in the integration of multiple data sources and functional interpretation of physiological and laboratory results. <strong><a href="research.html">Read about our research.</a></strong></p>
@@ -110,6 +111,10 @@
   </div>
 
   <br>
+
+  <div class='row' style='margin-bottom: 24em'>
+    
+  </div>
 
   <footer class="footer">
     <div class="row full-width">
@@ -142,19 +147,9 @@
     <script src="foundation/js/vendor/what-input.js"></script>
     <script src="foundation/js/vendor/foundation.js"></script>
     <script src="foundation/js/app.js"></script>
-    <script>
-      var video = document.getElementById("about_us_video");
-      function playPause(){
-        if (video.paused){
-          video.play();
-        }else{
-          video.pause();
-        }
-      }
-      function restart(){
-        video.load();
-      }    
-    </script>
+    <script src="js/jquery.vide.js"></script>
+    <script src="js/custom.js"></script>
+
   </body>
 </html>
 
