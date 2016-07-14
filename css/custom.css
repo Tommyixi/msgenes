@@ -101,6 +101,9 @@
 .no-left{
 	margin-left: 0;
 }
+.callout {
+	background-color: #fefefe !important;
+}
 
 /*footer*/
 .full-width {
