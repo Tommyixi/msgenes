@@ -20,19 +20,19 @@
 	padding-bottom: 1rem !important;
 }
 .dropdown li a{
-	color: white !important;
+	color: #fefefe !important;
 }
 .blue-background{
 	background-color: #2185d0 !important;
 }
 .white-background{
-	background-color: white !important;
+	background-color: #fefefe !important;
 }
 .blue-border{
 	border: 2px solid #2185d0 ;
 }
 .white-text, .white-text:hover{
-	color:white;
+	color: #fefefe;
 }
 .no-border{
 	border: none;
